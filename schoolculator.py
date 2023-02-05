@@ -244,7 +244,7 @@ class TwoSides(tk.Frame):
         convertable2=self.entry2.get()
         answer_commadot=convertable.replace(",",".")
         answer_commadot2=convertable2.replace(",",".")
-        answer=((math.sqrt((float(answer_commadot))**2)+(float(answer_commadot2)**2)))
+        answer=((math.sqrt(((float(answer_commadot))**2)+(float(answer_commadot2)**2))))
         answer_str=str(answer)
         answer_cdback=answer_str.replace(".",",")
         if answer_cdback.endswith(",0"):
